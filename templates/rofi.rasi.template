@@ -1,0 +1,17 @@
+* {
+    background: {background};
+    background-alt: {background-alt};
+    foreground: {foreground};
+    black: {black};
+    red: {red};
+    green: {green};
+    yellow: {yellow};
+    blue: {blue};
+    purple: {magenta};
+    cyan: {cyan};
+    white: {white};
+    primary: var({primary});
+    selected: var({primary});
+    urgent: var(red);
+}
+

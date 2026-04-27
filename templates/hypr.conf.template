@@ -1,0 +1,13 @@
+$background=rgb({background})
+$foreground=rgb({foreground})
+black   = rgb({black})
+red     = rgb({red})
+green   = rgb({green})
+yellow  = rgb({yellow})
+blue    = rgb({blue})
+magenta = rgb({magenta})
+cyan    = rgb({cyan})
+white   = rgb({white})
+$primary=${primary}
+$secondary=${secondary}
+
