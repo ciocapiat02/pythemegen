@@ -1,4 +1,4 @@
-* {
+* {{
     background: {background};
     background-alt: {background-alt};
     foreground: {foreground};
@@ -13,5 +13,5 @@
     primary: var({primary});
     selected: var({primary});
     urgent: var(red);
-}
+}}
 
