@@ -51,6 +51,7 @@ def get_colorscheme(colorscheme_name):
         "rgb": {
             "background":         hex_to_rgb(colorscheme["background"]),
             "background_alt":     hex_to_rgb(colorscheme["background_alt"]),
+            "background-alt":     hex_to_rgb(colorscheme["background_alt"]),
             "foreground":         hex_to_rgb(colorscheme["foreground"]),
             "foreground_inactive":hex_to_rgb(colorscheme["foreground"]),
             "black":              hex_to_rgb(colorscheme["black"]),
@@ -70,6 +71,7 @@ def get_colorscheme(colorscheme_name):
         "hex": {
             "background":         colorscheme["background"],
             "background_alt":     colorscheme["background_alt"],
+            "background-alt":     colorscheme["background_alt"],
             "foreground":         colorscheme["foreground"],
             "foreground_inactive":colorscheme["foreground"],
             "black":              colorscheme["black"],
