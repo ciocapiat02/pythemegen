@@ -1,13 +1,13 @@
-$background=rgb({background})
-$foreground=rgb({foreground})
-black   = rgb({black})
-red     = rgb({red})
-green   = rgb({green})
-yellow  = rgb({yellow})
-blue    = rgb({blue})
-magenta = rgb({magenta})
-cyan    = rgb({cyan})
-white   = rgb({white})
-$primary=${primary}
-$secondary=${secondary}
+$background_color =rgb({background})
+$foreground_color =rgb({foreground})
+$black_color = rgb({black})
+$red_color = rgb({red})
+$green_color = rgb({green})
+$yellow_color = rgb({yellow})
+$blue_color = rgb({blue})
+$magenta_color = rgb({magenta})
+$cyan_color = rgb({cyan})
+$white_color = rgb({white})
+$primary_color = ${primary}_color
+$secondary_color = ${secondary}_color
 
