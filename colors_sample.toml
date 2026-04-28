@@ -1,0 +1,15 @@
+[colors]
+background = "#1d1d20"
+background_alt = '#241f31'
+foreground = "#ffffff"
+black   = "#241f31"
+red     = "#c01c28"
+green   = "#2ec27e"
+yellow  = "#f5c211"
+blue    = "#1e78e4"
+magenta = "#9841bb"
+cyan    = "#0ab9dc"
+white   = "#c0bfbc"
+grey    = "#5e5c64"
+primary = "blue"
+secondary = "green"
