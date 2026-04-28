@@ -19,7 +19,7 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate={background_alt}
+BackgroundAlternate={background}
 BackgroundNormal={background}
 DecorationFocus={accent}
 DecorationHover={hover}
@@ -33,7 +33,7 @@ ForegroundPositive={green}
 ForegroundVisited={purple}
 
 [Colors:Selection]
-BackgroundAlternate={background_alt}
+BackgroundAlternate={background}
 BackgroundNormal={accent}
 DecorationFocus={accent}
 DecorationHover={hover}
@@ -47,7 +47,7 @@ ForegroundPositive={green}
 ForegroundVisited={purple}
 
 [Colors:Tooltip]
-BackgroundAlternate={background_alt}
+BackgroundAlternate={background}
 BackgroundNormal={background}
 DecorationFocus={accent}
 DecorationHover={hover}
@@ -61,7 +61,7 @@ ForegroundPositive={green}
 ForegroundVisited={purple}
 
 [Colors:View]
-BackgroundAlternate={background_alt}
+BackgroundAlternate={background}
 BackgroundNormal={background}
 DecorationFocus={accent}
 DecorationHover={hover}
@@ -75,7 +75,7 @@ ForegroundPositive={green}
 ForegroundVisited={purple}
 
 [Colors:Window]
-BackgroundAlternate={background_alt}
+BackgroundAlternate={background}
 BackgroundNormal={background}
 DecorationFocus={accent}
 DecorationHover={hover}
@@ -99,5 +99,5 @@ contrast=4
 [WM]
 activeBackground={background}
 activeForeground={foreground}
-inactiveBackground={background_alt}
+inactiveBackground={background}
 inactiveForeground={foreground_inactive}
