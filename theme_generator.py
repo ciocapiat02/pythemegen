@@ -4,7 +4,7 @@ import os
 import tomllib
 
 def help():
-    print(f"Usage: {sys.argv[0]} (path/to/colorscheme.toml) (template_name) (colors format)")
+    print(f"Usage: {sys.argv[0]} (path/to/colorscheme.toml) (template_name) (colors format) (optional: path/to/output)")
     exit()
 
 def hex_to_rgb(hex: str) -> str:
@@ -61,6 +61,7 @@ def get_colorscheme(colorscheme_name):
             "blue":               hex_to_rgb(colorscheme["blue"]),
             "purple":             hex_to_rgb(colorscheme["magenta"]),
             "magenta":            hex_to_rgb(colorscheme["magenta"]),
+            "pink":               hex_to_rgb(colorscheme["magenta"]),
             "white":              hex_to_rgb(colorscheme["white"]),
             "cyan":               hex_to_rgb(colorscheme["cyan"]),
             "accent":             hex_to_rgb(colorscheme["accent"]),
@@ -81,6 +82,7 @@ def get_colorscheme(colorscheme_name):
             "blue":               colorscheme["blue"],
             "purple":             colorscheme["magenta"],
             "magenta":            colorscheme["magenta"],
+            "pink":            colorscheme["magenta"],
             "white":              colorscheme["white"],
             "cyan":               colorscheme["cyan"],
             "accent":             colorscheme["accent"],
@@ -105,10 +107,14 @@ def get_output_file(template_file):
         os.mkdir(output_dir)
 
     output_file = f"{output_dir}/{os.path.basename(template_file).replace('.template', '')}"
+    
+    if len(sys.argv) == 5:
+        output_file = sys.argv[4]
+
     return output_file
      
 def main():
-    if len(sys.argv) != 4:
+    if len(sys.argv) < 4 or len(sys.argv) > 5:
         help()
 
     colorscheme_name = sys.argv[1]
